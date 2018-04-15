@@ -835,6 +835,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="w3ls-heading">
 			<h3>Our Gallery</h3>
 			<p class="sub"></p>
+			<div class="w3layouts-grids gal-wthree-agileits">
+			<div id="jzBox" class="jzBox">
+				<div id="jzBoxNextBig"></div>
+				<div id="jzBoxPrevBig"></div>
+				<img src="#" id="jzBoxTargetImg" alt="" />
+				<div id="jzBoxBottom">
+					<div id="jzBoxTitle"></div>
+					<div id="jzBoxMoreItems">
+						<div id="jzBoxCounter"></div>
+						<i class="arrow-left" id="jzBoxPrev"></i>
+						<i class="arrow-right" id="jzBoxNext"></i>
+					</div>
+					<i class="close" id="jzBoxClose"></i>
+				</div>
+			</div>
+			<div class="gallery-grids-row">
+				<div class="col-md-3 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/gallery1.jpg" class="jzBoxLink item-hover" title="Education">
+							<img src="images/gallery1.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Full View</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/gallery2.jpg" class="jzBoxLink item-hover" title="Education">
+							<img src="images/gallery2.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Full View</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/gallery3.jpg" class="jzBoxLink item-hover" title="Education">
+							<img src="images/gallery3.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Full View</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
 		</div>
 		
 	</div>
@@ -854,7 +903,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="contact-info-right">
 							<h5>Address</h5>
-							<p>  SF 210 SWARN NAGRI 
+							 
+							<p>  SF 201 SWARN NAGRI 
+								<br>
+								<span>greater noida</span>
+								
+							</p>
+							<p>  FF 86 MU 2 
 								<br>
 								<span>greater noida</span>
 								
@@ -938,7 +993,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<i class="fa fa-map-marker" aria-hidden="true"></i>
 							</div>
 							<div class="ftr-text">
-								<p> SF 210 SWARN NAGRI Greater noida</p>
+								<p> SF 201 SWARN NAGRI Greater noida</p>
+							</div>
+							<div class="ftr-text">
+								<p>  FF 86 MU 2  Greater noida</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
