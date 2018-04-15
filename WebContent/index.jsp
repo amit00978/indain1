@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!--
@@ -513,17 +514,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="col-md-3 wthree_banner_grid">
 				<i class="fa fa-globe" aria-hidden="true"></i>
-				<h4>LEARN COURSES ONLINE</h4>
+				<h4>LEARN COURSES </h4>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-3 wthree_banner_grid">
 				<i class="fa fa-book" aria-hidden="true"></i>
-				<h4>BOOK LIBRARY & NOTES</h4>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-3 wthree_banner_grid">
-				<i class="fa fa-bus" aria-hidden="true"></i>
-				<h4>VAN & BUS FACILITY</h4>
+				<h4> NOTES</h4>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
@@ -538,10 +534,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="col-md-7 w3l_banner_bottom_left">
 			<h3>Complete Solution For You Education Needs</h3>
-			<p>Nullam at turpis vel sapien aliquam feugiat vitae vitae mi. Donec scelerisque, justo vel blandit tempor, quam tellus blandit
-				lectus, ut viverra leo velit et quam. Phasellus viverra et quam efficitur rhoncus sollicitudin..
-				<span>Donec porttitor neque sed mauris sagittis, a auctor enim porta. Sed tristique sollicitudin orci. Vivamus vulputate nunc
-					id nulla elementum,nec vehicula ipsum ullamcorper.</span>
+			<p>Our teacher are professional with good teaching experience.our teacher help the student to bulid up there knowledge power.
+				<span></span>
 			</p>
 		</div>
 		<div class="clearfix"></div>
@@ -552,7 +546,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3ls-heading">
 				<h3 class="h-two">Learning Objectives</h3>
-				<p class="sub two">Morbi in dui pretium, finibus sapien vel.</p>
+				<p class="sub two">.</p>
 			</div>
 			<div class="w3layouts-grids">
 				<div class="services-right-grids">
@@ -562,7 +556,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Skills</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>Here we increase the skills  with books and serval activity</p>
 						</div>
 					</div>
 					<div class="col-sm-4 services-right-grid">
@@ -571,7 +565,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Self Learning</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>Self learning is key factor of success</p>
 						</div>
 					</div>
 					<div class="col-sm-4 services-right-grid">
@@ -580,7 +574,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Knowledge</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>KnowLedge is power</p>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -592,7 +586,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Discussion</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>Discussions offer students opportunities to test their ideas and opinions against the ideas and opinions of their peers</p>
 						</div>
 					</div>
 					<div class="col-sm-4 services-right-grid">
@@ -600,17 +594,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<i class="fa fa-usd" aria-hidden="true"></i>
 						</div>
 						<div class="services-icon-info">
-							<h5>International Payments</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
-						</div>
-					</div>
-					<div class="col-sm-4 services-right-grid">
-						<div class="services-icon hvr-radial-in">
-							<i class="fa fa-building-o" aria-hidden="true"></i>
-						</div>
-						<div class="services-icon-info">
-							<h5>Hosted Content</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<h5>Payments</h5>
+							<p>We are  providing the pay the fee online</p>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -633,7 +618,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="hover14 column">
 							<div>
 								<figure>
-									<img src="images/f1.jpg" alt=" " class="img-responsive" />
+									<img src="images/s.png" alt=" " class="img-responsive" />
 								</figure>
 							</div>
 						</div>
@@ -671,7 +656,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="hover14 column">
 							<div>
 								<figure>
-									<img src="images/IMG_20180406_200459.jpg" alt=" " />
+									<img src="images/p.png" alt=" "   class="img-responsive"/>
 								</figure>
 							</div>
 						</div>
@@ -795,9 +780,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="news" id="news">
 		<div class="w3ls-heading">
 			<h3>Latest News</h3>
-			<p class="sub">Morbi in dui pretium, finibus sapien vel.</p>
+			<p class="sub">New batches are started,Build your future </p>
 		</div>
-		<div class="w3layouts-grids">
+<!-- 	<div class="w3layouts-grids">
 			<div class="col-md-6 news-agileits-right news2">
 				<i>16th November 2016</i>
 				<p>Cras id odio elit. Ut scelerisque pellentesque tortor, vitae sagittis metus maximus eu. Nulla vel luctus nunc, quis pulvinar
@@ -842,6 +827,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"></div>
 		</div>
+		 -->
 	</div>
 	<!-- //news -->
 	<!-- gallery -->
