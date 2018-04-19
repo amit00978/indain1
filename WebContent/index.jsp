@@ -93,129 +93,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-	<!-- header -->
-	<div class="header-w3ls-agileinfo">
-
-		<div class="wthree_agile_top_header">
-			<div class="logo-agileits">
-				<h1>
-					<a href="index.html">
-						Indian Boards Classes
-						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-					</a>
-				</h1>
-				<i><h4>  Best Institution for board Students</h4></i>
-			</div>
-			<div class="agileits_w3layouts_sign_in">
-				<ul>
-					<li>
-						<a class="active" href="#" data-toggle="modal" data-target="#myModal2"> Candidate LogIn</a>
-					</li>
-					<li>
-						<a href="#" data-toggle="modal" data-target="#myModal3">Sign Up</a>
-					</li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<div class="container">
-			<div class="w3layouts_agileits_nav_section">
-				<nav class="navbar navbar-default">
-					<div class="navbar-header navbar-left">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<!-- <div class="w3ls__agileinfo_search">
-								<form action="#" method="post">
-									<input type="search" name="Search" placeholder="Search here..." required="">
-									<input type="submit" value=" ">
-								</form>
-							</div> -->
-					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-
-						<nav>
-							<ul class="nav navbar-nav">
-								<li class="active">
-									<a href="index.html">Home</a>
-								</li>
-
-								<li>
-									<a href="#about" class="hvr-rectangle-out scroll">Online Test Series</a>
-								</li>
-								<!-- <li><a href="#services" class="hvr-rectangle-out scroll">Previous  Year Question Paper</a></li> -->
-								<div class="dropdown">
-									<button class="dropbtn">Previous Year Question Papers</button>
-									<div class="dropdown-content">
-										<a href="#">Class 10th</a>
-
-										<a href="#">Class 12th</a>
-									</div>
-								</div>
-								<!-- <div class="dropdown">
-									<button class="dropbtn">Notes</button>
-									<div class="dropdown-content">
-										<a href="#">Class 1st-5th</a>
-										<a href="#">Class 6-8th</a>
-										<a href="#">Class 9-10th</a>
-										<a href="#">Class 11-12th</a>
-									</div>
-								</div> -->
-								<div class="dropdown">
-									<button class="dropbtn">Students</button>
-									<div class="dropdown-content">
-										<a href="#">Indain boards Students</a>
-										<a href="#">SSP Students</a>
-
-									</div>
-								</div>
-								<div class="dropdown">
-									<button class="dropbtn">Result</button>
-									<div class="dropdown-content">
-										<a href="#">Entrance Result</a>
-										<a href="#">Test Result</a>
-									</div>
-								</div>
-								<div class="dropdown">
-									<button class="dropbtn">Fee Structure</button>
-									<div class="dropdown-content">
-									</div>
-								</div>
-								<div class="dropdown">
-									<button class="dropbtn">About us</button>
-									<div class="dropdown-content">
-									</div>
-								</div>
-								<!-- <div class="dropdown">
-									<button class="dropbtn">Test Paper</button>
-									<div class="dropdown-content">
-
-									</div>
-								</div> -->
-								<div class="dropdown">
-									<button class="dropbtn">Career</button>
-									<div class="dropdown-content">
-
-									</div>
-								</div>
-
-								<!-- <li><a href="#news" class="hvr-rectangle-out scroll">News</a></li>
-								<li><a href="#gallery" class="hvr-rectangle-out scroll">Gallery</a></li>
-								<li><a href="#contact" class="hvr-rectangle-out scroll">Contact</a></li> -->
-							</ul>
-
-						</nav>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
-	<!-- //header -->
-
+	<!-- Header -->
+	<%@ include file = "header.jsp" %>
+	<!-- /Header -->
 	<!-- Modal1 -->
 	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
@@ -509,7 +389,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 wthree_banner_grid">
 				<i class="fa fa-edit" aria-hidden="true"></i>
 
-				<h4>Test Paper</h4>
+				<h4> <a href="result.jsp"  style="color:white"> Entrance Test Result</a></h4>
+							
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-3 wthree_banner_grid">
