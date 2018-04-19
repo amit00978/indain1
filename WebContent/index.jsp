@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!--
@@ -92,129 +93,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-	<!-- header -->
-	<div class="header-w3ls-agileinfo">
-
-		<div class="wthree_agile_top_header">
-			<div class="logo-agileits">
-				<h1>
-					<a href="index.html">
-						Indian Boards Classes
-						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-					</a>
-				</h1>
-				<i><h4>  Best Institution for board Students</h4></i>
-			</div>
-			<div class="agileits_w3layouts_sign_in">
-				<ul>
-					<li>
-						<a class="active" href="#" data-toggle="modal" data-target="#myModal2"> Candidate LogIn</a>
-					</li>
-					<li>
-						<a href="#" data-toggle="modal" data-target="#myModal3">Sign Up</a>
-					</li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<div class="container">
-			<div class="w3layouts_agileits_nav_section">
-				<nav class="navbar navbar-default">
-					<div class="navbar-header navbar-left">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<!-- <div class="w3ls__agileinfo_search">
-								<form action="#" method="post">
-									<input type="search" name="Search" placeholder="Search here..." required="">
-									<input type="submit" value=" ">
-								</form>
-							</div> -->
-					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-
-						<nav>
-							<ul class="nav navbar-nav">
-								<li class="active">
-									<a href="index.html">Home</a>
-								</li>
-
-								<li>
-									<a href="#about" class="hvr-rectangle-out scroll">Online Test Series</a>
-								</li>
-								<!-- <li><a href="#services" class="hvr-rectangle-out scroll">Previous  Year Question Paper</a></li> -->
-								<div class="dropdown">
-									<button class="dropbtn">Previous Year Question Papers</button>
-									<div class="dropdown-content">
-										<a href="#">Class 10th</a>
-
-										<a href="#">Class 12th</a>
-									</div>
-								</div>
-								<!-- <div class="dropdown">
-									<button class="dropbtn">Notes</button>
-									<div class="dropdown-content">
-										<a href="#">Class 1st-5th</a>
-										<a href="#">Class 6-8th</a>
-										<a href="#">Class 9-10th</a>
-										<a href="#">Class 11-12th</a>
-									</div>
-								</div> -->
-								<div class="dropdown">
-									<button class="dropbtn">Students</button>
-									<div class="dropdown-content">
-										<a href="#">Indain boards Students</a>
-										<a href="#">SSP Students</a>
-
-									</div>
-								</div>
-								<div class="dropdown">
-									<button class="dropbtn">Result</button>
-									<div class="dropdown-content">
-										<a href="#">Entrance Result</a>
-										<a href="#">Test Result</a>
-									</div>
-								</div>
-								<div class="dropdown">
-									<button class="dropbtn">Fee Structure</button>
-									<div class="dropdown-content">
-									</div>
-								</div>
-								<div class="dropdown">
-									<button class="dropbtn">About us</button>
-									<div class="dropdown-content">
-									</div>
-								</div>
-								<!-- <div class="dropdown">
-									<button class="dropbtn">Test Paper</button>
-									<div class="dropdown-content">
-
-									</div>
-								</div> -->
-								<div class="dropdown">
-									<button class="dropbtn">Career</button>
-									<div class="dropdown-content">
-
-									</div>
-								</div>
-
-								<!-- <li><a href="#news" class="hvr-rectangle-out scroll">News</a></li>
-								<li><a href="#gallery" class="hvr-rectangle-out scroll">Gallery</a></li>
-								<li><a href="#contact" class="hvr-rectangle-out scroll">Contact</a></li> -->
-							</ul>
-
-						</nav>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
-	<!-- //header -->
-
+	<!-- Header -->
+	<%@ include file = "header.jsp" %>
+	<!-- /Header -->
 	<!-- Modal1 -->
 	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
@@ -508,22 +389,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 wthree_banner_grid">
 				<i class="fa fa-edit" aria-hidden="true"></i>
 
-				<h4>Test Paper</h4>
+				<h4> <a href="result.jsp"  style="color:white"> Entrance Test Result</a></h4>
+							
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-3 wthree_banner_grid">
 				<i class="fa fa-globe" aria-hidden="true"></i>
-				<h4>LEARN COURSES ONLINE</h4>
+				<h4>LEARN COURSES </h4>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-3 wthree_banner_grid">
 				<i class="fa fa-book" aria-hidden="true"></i>
-				<h4>BOOK LIBRARY & NOTES</h4>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-3 wthree_banner_grid">
-				<i class="fa fa-bus" aria-hidden="true"></i>
-				<h4>VAN & BUS FACILITY</h4>
+				<h4> NOTES</h4>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
@@ -538,10 +415,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="col-md-7 w3l_banner_bottom_left">
 			<h3>Complete Solution For You Education Needs</h3>
-			<p>Nullam at turpis vel sapien aliquam feugiat vitae vitae mi. Donec scelerisque, justo vel blandit tempor, quam tellus blandit
-				lectus, ut viverra leo velit et quam. Phasellus viverra et quam efficitur rhoncus sollicitudin..
-				<span>Donec porttitor neque sed mauris sagittis, a auctor enim porta. Sed tristique sollicitudin orci. Vivamus vulputate nunc
-					id nulla elementum,nec vehicula ipsum ullamcorper.</span>
+			<p>Our teacher are professional with good teaching experience.our teacher help the student to bulid up there knowledge power.
+				<span></span>
 			</p>
 		</div>
 		<div class="clearfix"></div>
@@ -552,7 +427,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3ls-heading">
 				<h3 class="h-two">Learning Objectives</h3>
-				<p class="sub two">Morbi in dui pretium, finibus sapien vel.</p>
+				<p class="sub two">.</p>
 			</div>
 			<div class="w3layouts-grids">
 				<div class="services-right-grids">
@@ -562,7 +437,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Skills</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>Here we increase the skills  with books and serval activity</p>
 						</div>
 					</div>
 					<div class="col-sm-4 services-right-grid">
@@ -571,7 +446,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Self Learning</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>Self learning is key factor of success</p>
 						</div>
 					</div>
 					<div class="col-sm-4 services-right-grid">
@@ -580,7 +455,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Knowledge</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>KnowLedge is power</p>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -592,7 +467,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="services-icon-info">
 							<h5>Discussion</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<p>Discussions offer students opportunities to test their ideas and opinions against the ideas and opinions of their peers</p>
 						</div>
 					</div>
 					<div class="col-sm-4 services-right-grid">
@@ -600,17 +475,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<i class="fa fa-usd" aria-hidden="true"></i>
 						</div>
 						<div class="services-icon-info">
-							<h5>International Payments</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
-						</div>
-					</div>
-					<div class="col-sm-4 services-right-grid">
-						<div class="services-icon hvr-radial-in">
-							<i class="fa fa-building-o" aria-hidden="true"></i>
-						</div>
-						<div class="services-icon-info">
-							<h5>Hosted Content</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et.</p>
+							<h5>Payments</h5>
+							<p>We are  providing the pay the fee online</p>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -633,7 +499,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="hover14 column">
 							<div>
 								<figure>
-									<img src="images/f1.jpg" alt=" " class="img-responsive" />
+									<img src="images/s.png" alt=" " class="img-responsive" />
 								</figure>
 							</div>
 						</div>
@@ -671,7 +537,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="hover14 column">
 							<div>
 								<figure>
-									<img src="images/IMG_20180406_200459.jpg" alt=" " />
+									<img src="images/p.png" alt=" "   class="img-responsive"/>
 								</figure>
 							</div>
 						</div>
@@ -795,9 +661,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="news" id="news">
 		<div class="w3ls-heading">
 			<h3>Latest News</h3>
-			<p class="sub">Morbi in dui pretium, finibus sapien vel.</p>
+			<p class="sub">New batches are started,Build your future </p>
 		</div>
-		<div class="w3layouts-grids">
+<!-- 	<div class="w3layouts-grids">
 			<div class="col-md-6 news-agileits-right news2">
 				<i>16th November 2016</i>
 				<p>Cras id odio elit. Ut scelerisque pellentesque tortor, vitae sagittis metus maximus eu. Nulla vel luctus nunc, quis pulvinar
@@ -842,6 +708,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"></div>
 		</div>
+		 -->
 	</div>
 	<!-- //news -->
 	<!-- gallery -->
@@ -849,6 +716,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="w3ls-heading">
 			<h3>Our Gallery</h3>
 			<p class="sub"></p>
+			<div class="w3layouts-grids gal-wthree-agileits">
+			<div id="jzBox" class="jzBox">
+				<div id="jzBoxNextBig"></div>
+				<div id="jzBoxPrevBig"></div>
+				<img src="#" id="jzBoxTargetImg" alt="" />
+				<div id="jzBoxBottom">
+					<div id="jzBoxTitle"></div>
+					<div id="jzBoxMoreItems">
+						<div id="jzBoxCounter"></div>
+						<i class="arrow-left" id="jzBoxPrev"></i>
+						<i class="arrow-right" id="jzBoxNext"></i>
+					</div>
+					<i class="close" id="jzBoxClose"></i>
+				</div>
+			</div>
+			<div class="gallery-grids-row">
+				<div class="col-md-3 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/gallery1.jpg" class="jzBoxLink item-hover" title="Education">
+							<img src="images/gallery1.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Full View</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/gallery2.jpg" class="jzBoxLink item-hover" title="Education">
+							<img src="images/gallery2.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Full View</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/gallery3.jpg" class="jzBoxLink item-hover" title="Education">
+							<img src="images/gallery3.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Full View</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
 		</div>
 		
 	</div>
@@ -868,7 +784,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="contact-info-right">
 							<h5>Address</h5>
-							<p>  SF 210 SWARN NAGRI 
+							 
+							<p>  SF 201 SWARN NAGRI 
+								<br>
+								<span>greater noida</span>
+								
+							</p>
+							<p>  FF 86 MU 2 
 								<br>
 								<span>greater noida</span>
 								
@@ -952,7 +874,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<i class="fa fa-map-marker" aria-hidden="true"></i>
 							</div>
 							<div class="ftr-text">
-								<p> SF 210 SWARN NAGRI Greater noida</p>
+								<p> SF 201 SWARN NAGRI Greater noida</p>
+							</div>
+							<div class="ftr-text">
+								<p>  FF 86 MU 2  Greater noida</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
