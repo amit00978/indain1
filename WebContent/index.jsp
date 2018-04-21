@@ -92,7 +92,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  -->
 </head>
 
-<body>
+<body style="overflow-x:hidden;">
 	<!-- Header -->
 	<%@ include file = "header.jsp" %>
 	<!-- /Header -->
@@ -231,42 +231,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 
-	<div style="Width:'100%';height:200px;left:34px">
+	<div style="width:'100%';height:200px;left:34px">
 		<table>
 	
-			<marquee style="z-index:2;position:absolute;left:176px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="7" direction="up">Biology</marquee>
-			<marquee style="z-index:2;position:absolute;left:270px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="4" direction="down">Math Matices</marquee>
-			<marquee style="z-index:2;position:absolute;left:270px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="up">History</marquee>
-			<marquee style="z-index:2;position:absolute;left:350px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="6" direction="down">Geography</marquee>
-		 <marquee style="z-index:2;position:absolute;left:176px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="3" direction="down">Chemistry</marquee>
-		 <marquee style="z-index:2;position:absolute;left:400px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="3" direction="down">English</marquee>		 
-		 <marquee style="z-index:2;position:absolute;left:350px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="4" direction="up"> Social Science</marquee>
-		 <marquee style="z-index:2;position:absolute;left:400px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="up"> हिंदी</marquee>
-		 <marquee style="z-index:2;position:absolute;left:450px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="7" direction="down"> Computer Science</marquee>
-		 <marquee style="z-index:2;position:absolute;left:450px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="2" direction="up"> Economics</marquee>
-		 <marquee style="z-index:2;position:absolute;left:500px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="up"> Political Science</marquee>
-		 <marquee style="z-index:2;position:absolute;left:500px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="8" direction="up"> Accountancy</marquee>
-		 <marquee style="z-index:2;position:absolute;left:550px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="3" direction="up"> Informatics Practices</marquee>
-		 <marquee style="z-index:2;position:absolute;left:550px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="4" direction="down"> Sanskrit</marquee>
-		 <marquee style="z-index:2;position:absolute;left:570px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="down"> Business studies</marquee>
-		 <marquee style="z-index:2;position:absolute;left:570px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="6" direction="up"> Business studies</marquee>
-		 <marquee style="z-index:2;position:absolute;left:600px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="9" direction="up">Music</marquee>
+			<marquee style="z-index:2;position:absolute;left:176px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="7" direction="up">Biology</marquee>
+			<marquee style="z-index:2;position:absolute;left:270px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="4" direction="down">Math Matices</marquee>
+			<marquee style="z-index:2;position:absolute;left:270px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="up">History</marquee>
+			<marquee style="z-index:2;position:absolute;left:350px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="6" direction="down">Geography</marquee>
+		 <marquee style="z-index:2;position:absolute;left:176px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="3" direction="down">Chemistry</marquee>
+		 <marquee style="z-index:2;position:absolute;left:400px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="3" direction="down">English</marquee>		 
+		 <marquee style="z-index:2;position:absolute;left:350px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="4" direction="up"> Social Science</marquee>
+		 <marquee style="z-index:2;position:absolute;left:400px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="up"> हिंदी</marquee>
+		 <marquee style="z-index:2;position:absolute;left:450px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="7" direction="down"> Computer Science</marquee>
+		 <marquee style="z-index:2;position:absolute;left:450px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="2" direction="up"> Economics</marquee>
+		 <marquee style="z-index:2;position:absolute;left:500px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="up"> Political Science</marquee>
+		 <marquee style="z-index:2;position:absolute;left:500px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="8" direction="up"> Accountancy</marquee>
+		 <marquee style="z-index:2;position:absolute;left:550px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="3" direction="up"> Informatics Practices</marquee>
+		 <marquee style="z-index:2;position:absolute;left:550px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="4" direction="down"> Sanskrit</marquee>
+		 <marquee style="z-index:2;position:absolute;left:570px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="down"> Business studies</marquee>
+		 <marquee style="z-index:2;position:absolute;left:570px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="6" direction="up"> Business studies</marquee>
+		 <marquee style="z-index:2;position:absolute;left:600px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="9" direction="up">Music</marquee>
 		
-		 <marquee style="z-index:2;position:absolute;left:600px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="2" direction="down">Philosophy</marquee>
-		 <marquee style="z-index:2;position:absolute;left:700px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="4" direction="down">Civics</marquee>
-		 <marquee style="z-index:2;position:absolute;left:750px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="6" direction="down">English Grammar</marquee>
-		 <marquee style="z-index:2;position:absolute;left:750px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="up">Psychology</marquee>
-		 <marquee style="z-index:2;position:absolute;left:800px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="8" direction="up">English Core</marquee>
-		 <marquee style="z-index:2;position:absolute;left:850px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="3" direction="up">Physics</marquee>
-		 <marquee style="z-index:2;position:absolute;left:850px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="down">History</marquee>
-		 <marquee style="z-index:2;position:absolute;left:900px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="1" direction="down">Painting</marquee>
-		 <marquee style="z-index:2;position:absolute;left:950px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="4" direction="Down">E=Mc2</marquee>
-		 <marquee style="z-index:2;position:absolute;left:900px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="3" direction="Down">H2so4</marquee>
-		 <marquee style="z-index:2;position:absolute;left:1000px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="Down">Lencho</marquee>
-		 <marquee style="z-index:2;position:absolute;left:1000px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="5" direction="up">Physics</marquee>
-		 <marquee style="z-index:2;position:absolute;left:1050px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="7" direction="up">Current Electricity</marquee>
-		 <marquee style="z-index:2;position:absolute;left:1050px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="2" direction="down">Acid Bases and Salts</marquee>
-		 <marquee style="z-index:2;position:absolute;left:1100px;top:'20%';font-family:Cursive;font-size:14pt;color:#ffcc00;height:'10%';" scrollamount="" direction="down">Atoms</marquee>
+		 <marquee style="z-index:2;position:absolute;left:600px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="2" direction="down">Philosophy</marquee>
+		 <marquee style="z-index:2;position:absolute;left:700px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="4" direction="down">Civics</marquee>
+		 <marquee style="z-index:2;position:absolute;left:750px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="6" direction="down">English Grammar</marquee>
+		 <marquee style="z-index:2;position:absolute;left:750px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="up">Psychology</marquee>
+		 <marquee style="z-index:2;position:absolute;left:800px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="8" direction="up">English Core</marquee>
+		 <marquee style="z-index:2;position:absolute;left:850px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="3" direction="up">Physics</marquee>
+		 <marquee style="z-index:2;position:absolute;left:850px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="down">History</marquee>
+		 <marquee style="z-index:2;position:absolute;left:900px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="1" direction="down">Painting</marquee>
+		 <marquee style="z-index:2;position:absolute;left:950px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="4" direction="Down">E=Mc2</marquee>
+		 <marquee style="z-index:2;position:absolute;left:900px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="3" direction="Down">H2so4</marquee>
+		 <marquee style="z-index:2;position:absolute;left:1000px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="Down">Lencho</marquee>
+		 <marquee style="z-index:2;position:absolute;left:1000px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="5" direction="up">Physics</marquee>
+		 <marquee style="z-index:2;position:absolute;left:1050px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="7" direction="up">Current Electricity</marquee>
+		 <marquee style="z-index:2;position:absolute;left:1050px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="2" direction="down">Acid Bases and Salts</marquee>
+		 <marquee style="z-index:2;position:absolute;left:1100px;font-family:Cursive;font-size:14pt;color:#ffcc00;" scrollamount="" direction="down">Atoms</marquee>
 		</table>
 
 		</div>

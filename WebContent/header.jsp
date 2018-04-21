@@ -131,7 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 
 						<nav>
-							<ul class="nav navbar-nav">
+							<ul class="nav navbar-nav" style="z-index: 1000;">
 								<li class="active">
 									<a href="index.jsp">Home</a>
 								</li>
